@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	var numbersArray = getRandomIntArray(100)
+	var numbersArray = getRandomIntArray(50)
 	fmt.Println("Before sort:", numbersArray)
-	bubleSort(numbersArray)
+	mergeSort(numbersArray)
 }
 
 func bubleSort(array []int) {
