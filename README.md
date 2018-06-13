@@ -1,0 +1,1 @@
+A newbie in GO is exercising
